@@ -5,7 +5,7 @@ def main():
 def greeting(user: str):
     if "hello" in user:
         print("$0")
-    elif user.startswith("h") or user.startswith("H"):
+    elif user.startswith("h"):
         print("$20")
     else:
         print("$100")
